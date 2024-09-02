@@ -8,12 +8,83 @@
 <body>
     <div  style="background-color: green; color: white; height: 60px;
     text-align: center; padding: 10px;">
-        <h2>My First Webpage</h2>
+        <h1>My First Webpage</h1>
     </div>
     <ul style="width: 30%; display: flex;  list-style: none; color: green; justify-content: space-between;">
-        <li><a href="" style="text-decoration: none; color: green;">Webpage Content</a></li>
-        <li><a href=""  style="text-decoration: none; color: green;">Information Table</a></li>
-        <li><a href=""  style="text-decoration: none; color: green;">Contact Form</a></li>
+        <li><a href="#webpage-content" style="text-decoration: none; color: green;">Webpage Content</a></li>
+        <li><a href="#information-table"  style="text-decoration: none; color: green;">Information Table</a></li>
+        <li><a href="#contact-form"  style="text-decoration: none; color: green;">Contact Form</a></li>
     </ul>
+    <img src="IMG-20240902-WA0006.jpg" alt="flower in glass sphere" style="width: 700px; height: 400px;">
+    <p style="text-align: center;">This is a simple paragraph describing the content of this webpage, this is my first webpage in techyjaunt </p>
+    <a href=""> Visit Techyjaunt</a>
+
+    <div class="webpage-content" id="webpage-content" style="margin: 20px;">
+        <h2>Webpage Contents</h2>
+        <ul>
+            <li>Introduction</li>
+            <li>Table of Information</li>
+            <li>Contact Form</li>
+        </ul>
+
+    </div>
+    <div class="information-table" id="information-table" style="margin: 20px;">
+        <h2>Information Table</h2>
+       <Table style="border: 1px solid; border-collapse: collapse; width: 300px; height: 150px;" >
+        <thead style="font-weight: bold; "border: 2px solid;">
+            <tr >
+                <td  style="border: 1px solid;" >Item</td>
+                <td style="border: 1px solid;">Description</td>
+                <td style="border: 1px solid;">Quantity</td>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td style="border: 1px solid;">Pens</td>
+                <td style="border: 1px solid;">Blue ink pens</td>
+                <td style="border: 1px solid;">5</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid;">Notebooks</td>
+                <td style="border: 1px solid;">Spiral-bound notebooks</td>
+                <td style="border: 1px solid;">3</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid;">Markers</td>
+                <td style="border: 1px solid;">Permanent markers</td>
+                <td style="border: 1px solid;">2</td>
+            </tr>
+        </tbody>
+
+       </Table> 
+    </div>
+
+    <form action="" id="contact-form" style="margin: 20px; ">
+        <h2>Contact Form</h2>
+        <label for=""  >Name:</label>
+        <input type="text"  style="margin: 5px;"> <br>
+        <label for="" >Email:</label>
+        <input type="email" name="" id="" style="margin: 5px; "> <br>
+        <label for="">Password:</label>
+        <input type="password" name="" id="" style="margin: 5px; "> <br>
+        <label for="">Gender:</label>
+        <input type="radio" name="Male" id="" style="margin: 5px; "> Male
+        <input type="radio" name="Female" id="">Female <br>
+        <label for="">Subscribe:</label>
+        <input type="checkbox" name="" id="" style="margin: 5px; "> Yes, i want to subsribe  <br>
+        <label for="">Number of Items:</label>
+        <input type="number" name="" id="" style="margin: 5px;"> <br>
+        <label for="">Date:</label>
+        <input type="date" name="" id="" style="margin: 5px; "> <br>
+        <label for="">Message:</label> <br>
+        <textarea name="" id="" style="margin: 5px;"></textarea> <br>
+        <input type="button" value="submit">
+        
+     
+
+
+    </form>
+
 </body>
 </html>
